@@ -4,6 +4,9 @@ import java.util.List;
 
 public class Tools {
 
+    public static String SUCCESS_MN = "Амжилттай";
+
+
     public static boolean isNullOrZero(Long value) {
         return value == null || value.equals(0L);
     }
